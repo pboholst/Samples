@@ -1,0 +1,9 @@
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.Properties.Resources.resources
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.csproj.GenerateResource.cache
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.csproj.CoreCompileInputs.cache
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\bin\Debug\SearchBoxOne.exe.config
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\bin\Debug\SearchBoxOne.exe
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\bin\Debug\SearchBoxOne.pdb
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.exe
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.pdb
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBoxOne\obj\Debug\SearchBoxOne.Form1.resources

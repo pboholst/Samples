@@ -1,0 +1,10 @@
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\bin\Debug\SearchBox03.exe.config
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\bin\Debug\SearchBox03.exe
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\bin\Debug\SearchBox03.pdb
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.Form1.resources
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.Properties.Resources.resources
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.csproj.GenerateResource.cache
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.csproj.CoreCompileInputs.cache
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.exe
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.pdb
+C:\Users\bohol\source\repos\SearchBoxSample\SearchBox03\obj\Debug\SearchBox03.Form2.resources
