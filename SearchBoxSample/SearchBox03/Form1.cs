@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,10 +32,9 @@ namespace SearchBox03
             dataGridView1.DataSource = allSavedJobFunctions;
             ListBoxInit();
         }
-        Point p1 = new Point();
 
         ListBox listBox;
-        private void ListBoxInit()
+        public void ListBoxInit()
         {
             listBox = new ListBox
             {
@@ -46,15 +45,30 @@ namespace SearchBox03
                 Visible = true
             };
             
-            this.Controls.Add(listBox);
+            
             //listBox.Items.Add("Address Deletion");
             //listBox.Items.Add("Templates");
             //listBox.Items.Add("CAPS Actionables");
             //listBox.Items.Add("CAPS Batch");
             //listBox.Items.Add("Web information");
 
+            listBox.Click += (sender, e) =>
+            {
+                MessageBox.Show("the button was clicked");
+            };
 
+            listBox.KeyDown += (sender, e) =>
+            {
+                Console.WriteLine("yo");
+            };
+            // add the button to the form
+            //Controls.Add(listBox);
+            this.Controls.Add(listBox);
         }
+
+
+
+
         int listBoxHeight = 13;
         int newListBoxHeight = 0;
         private void TextBox1_TextChanged(object sender, EventArgs e)
@@ -88,9 +102,50 @@ namespace SearchBox03
             {
                 this.listBox.Height = textBox1.Height - 30;
             }
-
         }
 
+        // Handle the KeyDown event to determine the type of character entered into the control.
+        private void textBox1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Up || e.KeyCode == Keys.Down)
+            {
+                Console.WriteLine("Up arrow is pressed");
+                listBox.Focus();
+                listBox.SelectedIndex = 0;
+            }else if(e.KeyCode == Keys.Enter)
+            {
+                Console.WriteLine("Enter is pressed");
+                
+            }
+            else
+            {
+                Console.WriteLine("anything here!");
+            }
+
+            // Initialize the flag to false.
+            //nonNumberEntered = false;
+
+            //// Determine whether the keystroke is a number from the top of the keyboard.
+            //if (e.KeyCode < Keys.D0 || e.KeyCode > Keys.D9)
+            //{
+            //    // Determine whether the keystroke is a number from the keypad.
+            //    if (e.KeyCode < Keys.NumPad0 || e.KeyCode > Keys.NumPad9)
+            //    {
+            //        // Determine whether the keystroke is a backspace.
+            //        if (e.KeyCode != Keys.Back)
+            //        {
+            //            // A non-numerical keystroke was pressed.
+            //            // Set the flag to true and evaluate in KeyPress event.
+            //            nonNumberEntered = true;
+            //        }
+            //    }
+            //}
+            ////If shift key was pressed, it's not a number.
+            //if (Control.ModifierKeys == Keys.Shift)
+            //{
+            //    nonNumberEntered = true;
+            //}
+        }
     }
 
 
